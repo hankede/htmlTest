@@ -28,7 +28,12 @@
     <div class="further-info">
         <!-- 插入包含 srcsets 和 sizes 属性的图像 -->
         <a href="https://www.mozilla.org/zh-CN/firefox/new/">
-            <img src="images/firefox-addons.jpg">
+            <img srcset="images/firefox_logo-only_RGB_400 400,
+                         images/firefox_logo-only_RGB_120 120"
+                 sizes="(max-width: 480) 140px,
+                        400px"
+                 src="images/firefox_logo-only_RGB_400"
+                 alt="可伸缩图片">
         </a>
         <a href="https://www.mozilla.org/">
             <img>
